@@ -43,10 +43,29 @@ a{
   color: #fff;
 }
 
+p{
+  font-family: "Matter-Regular", sans-serif;
+}
+
 h1{
   font-family: "Matter-Bold", sans-serif;
 }
 
+h2, .sb{
+  font-family: "Matter-SemiBold", sans-serif;
+}
+
+.mdm{
+  font-family: "Matter-Medium", sans-serif;
+}
+
 .nav-link{
   font-family: "Matter-SemiBold", sans-serif;
+}
+
+
+@media (max-width: 639px){
+  .none1{
+  display: none !important;
+}
 }
